@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="746d2226-e33e-48b3-bd7b-f54a2a03a03a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/IOUContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchemaV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/IOUState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/src/integrationTest/java/com/example/DriverBasedTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/ExampleFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/NodeDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/IOUContractTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/flow/IOUFlowTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/clients/.gradle/" />
+    <ignored path="$PROJECT_DIR$/clients/build/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/build/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/clients/out/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/.gradle/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/build/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/out/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/out/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/.gradle/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/build/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/out/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>10007</find>
+      <find>10008</find>
+      <find>10011</find>
+      <find>10016</find>
+      <find>100</find>
+      <find>Party</find>
+      <find>issue</find>
+      <find>when(status)</find>
+      <find>myPage = 1</find>
+      <find>class</find>
+      <find>NodeRPCConnection</find>
+      <find>Milan</find>
+      <find>syndia</find>
+      <find>End</find>
+      <find>EndPro</find>
+      <find>FinalityFlow</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/ResponsePojo.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/plugin/WhiteListPlugin.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/ProposalSchema.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/WasteRequest.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/WasteRequestSchema.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/WasteRequestPojo.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/ProposalPojo.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/build.gradle" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/ProposalState.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/IssueWasteRequestPojo.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/WasteRequestContract.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/plugin/FullPlugin.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/plugin/WhiteListPlugin.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt" />
+        <option value="$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/plugin/FullPlugin.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/build.gradle" />
+        <option value="$PROJECT_DIR$/clients/build.gradle" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ProposalFlow.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/flow/ProposalFlow.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/ProposalContract.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/flow/WasteRequestFlow.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/WasteRequestFlow.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="cordapp-example" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="cordapp-example" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.server.plugin" />
+      <recent name="com.example.flow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angelo.massimino\IntelliJWorkspace\cordaWasteDisposalSystem\cordapp-example\workflows-kotlin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Run Example Cordapp - Java" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="746d2226-e33e-48b3-bd7b-f54a2a03a03a" name="Default Changelist" comment="" />
+      <created>1558626315997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558626315997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26234818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5381883" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3197158" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49959514" weight="0.24333926" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contracts-java/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/dev/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/repositories.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build/nodes/PartyA/logs/node-info-gen.log" />
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build/nodes/PartyA/logs/node-CPX-AO3DY3ZXMYW.log" />
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/IOUSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/ResponsePojo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/plugin/WhiteListPlugin.kt" />
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/contract/IOUContractTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/WasteRequestPojo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="32" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.0/f157f0cd83cd4a5f0a99ed59e718ac62443b52fc/corda-core-4.0-sources.jar!/net/corda/core/flows/CollectSignaturesFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="197" column="49" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/flow/ExampleFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/IssueWasteRequestPojo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/WasteRequestContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="43" column="105" selection-start-line="43" selection-start-column="105" selection-end-line="43" selection-end-column="105" />
+          <folding>
+            <element signature="e#30#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/WasteRequestState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/plugin/FullPlugin.kt" />
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/plugin/WhiteListPlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#35#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver-impl/4.0/6fb8bd774c9abc211aa9efcc02014405d76d25d9/corda-webserver-impl-4.0-sources.jar!/net/corda/webserver/services/WebServerPluginRegistry.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/plugin/FullPlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build/nodes/Cliente/logs/node-info-gen.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ExampleFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="110" column="13" lean-forward="true" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+          <folding>
+            <element signature="e#26#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ProposalFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="213" column="9" lean-forward="true" selection-end-line="230" selection-end-column="1" />
+          <folding>
+            <element signature="e#26#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/ProposalContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/flow/WasteRequestFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="277" column="84" selection-start-line="277" selection-start-column="56" selection-end-line="277" selection-end-column="84" />
+          <folding>
+            <element signature="e#26#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/flow/ProposalFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="118" column="89" selection-start-line="118" selection-start-column="54" selection-end-line="118" selection-end-column="89" />
+          <folding>
+            <element signature="e#26#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/ProposalSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#28#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/ProposalState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/WasteRequestFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build/nodes/Cliente/logs/node-CPX-AO3DY3ZXMYW.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="375" column="412" selection-start-line="375" selection-start-column="412" selection-end-line="375" selection-end-column="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/WasteRequestSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="70" column="89" selection-start-line="70" selection-start-column="89" selection-end-line="70" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="218" column="78" selection-start-line="218" selection-start-column="68" selection-end-line="218" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/POJO/ProposalPojo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#26#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cordapp-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
