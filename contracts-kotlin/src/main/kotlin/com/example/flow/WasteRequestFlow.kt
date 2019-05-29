@@ -27,6 +27,7 @@ import java.util.*
 
 
 object WasteRequestFlow {
+
     @InitiatingFlow
     @StartableByRPC
     class Starter(
@@ -108,6 +109,7 @@ object WasteRequestFlow {
             // Stage 4.
             progressTracker.currentStep = GATHERING_SIGS
 
+            /*
             var firstFlow : FlowSession? = null
             var secondFlow : FlowSession? = null
 
@@ -128,6 +130,10 @@ object WasteRequestFlow {
 
                 else -> throw FlowException("node "+serviceHub.myInfo.legalIdentities.first()+" not partecipating to the transaction")
             }
+            */
+
+            var firstFlow = initiateFlow(syndial)
+            var secondFlow = initiateFlow(fornitore)
 
 
             val fullySignedTx = subFlow(CollectSignaturesFlow(partSignedTx, setOf(firstFlow, secondFlow), GATHERING_SIGS.childProgressTracker()))
@@ -135,7 +141,7 @@ object WasteRequestFlow {
             // Stage 5.
             progressTracker.currentStep = FINALISING_TRANSACTION
             // Notarise and record the transaction in both parties' vaults.
-            return subFlow(FinalityFlow(fullySignedTx,  setOf(firstFlow, secondFlow), FINALISING_TRANSACTION.childProgressTracker()))
+            return subFlow(FinalityFlow(fullySignedTx, setOf(firstFlow, secondFlow), FINALISING_TRANSACTION.childProgressTracker()))
         }
     }
 
@@ -254,6 +260,7 @@ object WasteRequestFlow {
             // Stage 4.
             progressTracker.currentStep = GATHERING_SIGS
 
+
             var firstFlow : FlowSession? = null
             var secondFlow : FlowSession? = null
 
@@ -263,6 +270,16 @@ object WasteRequestFlow {
                 proposalState.fornitore -> {
                     firstFlow = initiateFlow(proposalState.cliente)
                     secondFlow = initiateFlow(proposalState.syndial)
+                }
+
+                proposalState.cliente -> {
+                    firstFlow = initiateFlow(proposalState.fornitore)
+                    secondFlow = initiateFlow(proposalState.syndial)
+                }
+
+                proposalState.syndial -> {
+                    firstFlow = initiateFlow(proposalState.cliente)
+                    secondFlow = initiateFlow(proposalState.fornitore)
                 }
 
                 else -> throw FlowException("node "+serviceHub.myInfo.legalIdentities.first()+" cannot start the flow")
@@ -275,7 +292,7 @@ object WasteRequestFlow {
             progressTracker.currentStep = FINALISING_TRANSACTION
             // Notarise and record the transaction in both parties' vaults.
 
-            return subFlow(FinalityFlow(fullySignedTx,  setOf(firstFlow, secondFlow), FINALISING_TRANSACTION.childProgressTracker()))
+            return subFlow(FinalityFlow(fullySignedTx, setOf(firstFlow, secondFlow), FINALISING_TRANSACTION.childProgressTracker()))
         }
     }
 

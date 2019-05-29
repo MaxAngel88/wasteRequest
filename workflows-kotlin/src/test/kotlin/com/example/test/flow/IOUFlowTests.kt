@@ -1,10 +1,7 @@
 package com.example.test.flow
 
-import com.example.flow.ExampleFlow
-import com.example.state.IOUState
 import net.corda.core.contracts.TransactionVerificationException
 import net.corda.core.node.services.queryBy
-import net.corda.core.utilities.getOrThrow
 import net.corda.testing.core.singleIdentity
 import net.corda.testing.node.MockNetwork
 import net.corda.testing.node.MockNetworkParameters

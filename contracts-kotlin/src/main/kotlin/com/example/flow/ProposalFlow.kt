@@ -2,6 +2,10 @@ package com.example.flow
 
 import co.paralleluniverse.fibers.Suspendable
 import com.example.POJO.ProposalPojo
+import com.example.flow.ProposalFlow.Starter
+import com.example.flow.ProposalFlow.Acceptor
+import com.example.flow.ProposalFlow.AcceptorEnd
+import com.example.flow.ProposalFlow.EndProposal
 import com.example.contract.ProposalContract
 import com.example.contract.ProposalContract.Companion.PROPOSAL_CONTRACT_ID
 import com.example.state.ProposalState
@@ -22,6 +26,7 @@ import khttp.post
 
 
 object ProposalFlow {
+
     @InitiatingFlow
     @StartableByRPC
     class Starter(
@@ -137,9 +142,8 @@ object ProposalFlow {
         }
     }
 
-
-    @SchedulableFlow
     @InitiatingFlow
+    @SchedulableFlow
     class EndProposal(private val stateRef: StateRef) : FlowLogic<Unit>() {
 
         companion object {
@@ -214,6 +218,7 @@ object ProposalFlow {
         }
     }
 
+
     @InitiatedBy(EndProposal::class)
     class AcceptorEnd(val otherPartyFlow: FlowSession) : FlowLogic<SignedTransaction>() {
         @Suspendable
@@ -227,5 +232,4 @@ object ProposalFlow {
             return subFlow(signTransactionFlow)
         }
     }
-
 }

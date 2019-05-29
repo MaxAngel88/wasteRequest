@@ -1,7 +1,5 @@
 package com.example.test.contract
 
-import com.example.contract.IOUContract
-import com.example.state.IOUState
 import net.corda.core.identity.CordaX500Name
 import net.corda.testing.core.TestIdentity
 import net.corda.testing.node.MockServices

@@ -9,7 +9,6 @@ import com.example.flow.ProposalFlow
 import com.example.flow.WasteRequestFlow
 import com.example.schema.ProposalSchemaV1
 import com.example.schema.WasteRequestSchemaV1
-import com.example.state.IOUState
 import com.example.state.ProposalState
 import com.example.state.WasteRequestState
 import net.corda.core.contracts.StateAndRef
@@ -35,8 +34,6 @@ import net.corda.core.node.services.vault.QueryCriteria
 import javax.ws.rs.core.Response.Status.BAD_REQUEST
 import javax.ws.rs.core.Response.Status.CREATED
 import net.corda.core.messaging.CordaRPCOps
-
-import javax.ws.rs.*
 
 
 val SERVICE_NAMES = listOf("Notary", "Network Map Service")
